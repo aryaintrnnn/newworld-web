@@ -1,0 +1,97 @@
+nav{
+    font-size: 1rem;
+    z-index: 4;
+}
+
+nav a{
+    color: var(--font-color);
+}
+
+.navIcon{
+    display: none;
+}
+
+.navUtama{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    left: 1rem;
+    top: 0.5rem;
+    color: var(--font-color);
+    z-index: 4;
+}
+
+.navMenuKanan{
+    position: fixed;
+    right: 1rem;
+    top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: end;
+    z-index: 4;
+}
+.navMenuBawah{
+    position: fixed;
+    bottom: 1rem;
+    left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    text-align: start;
+    z-index: 4;
+}
+
+/* breakpoints */
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navUtama{
+        position: absolute;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .navIcon{
+        display: block;
+        font-size: 2rem;
+        color: var(--third-color);
+    }
+    .navText{
+        display: none;
+    }
+    .navMenuKanan, 
+    .navMenuBawah{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        gap: 0.6rem;
+        align-items: center;
+    }
+    .containerNav{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        z-index: 4;
+        background-color: var(--fourth-color);
+        backdrop-filter: blur(10px);
+        bottom: 1.3rem;
+        padding: 0.5rem 0.8rem;
+        border-radius: 15px;
+        gap: 0.6rem;
+    }
+    .iconAktif{
+        background-color: var(--secondary-color);
+        padding: 0.3rem;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 350px) {
+}
