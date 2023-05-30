@@ -11,36 +11,56 @@ nav a{
     display: none;
 }
 
-.navUtama{
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.2rem;
-    left: 1rem;
-    top: 0.5rem;
-    color: var(--font-color);
-    z-index: 4;
+.logoImg{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
 }
 
 .navMenuKanan{
-    position: fixed;
-    right: 1rem;
-    top: 0.5rem;
     display: flex;
-    flex-direction: column;
     line-height: 1.5rem;
-    text-align: end;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     z-index: 4;
+    gap: 1.5rem;
+    padding: 1rem;
+    background-color: var(--navbar-color);
 }
+
+.navMenuKanan a{
+    transition: all 0.5s ease;
+}
+
 .navMenuBawah{
-    position: fixed;
-    bottom: 1rem;
-    left: 0.5rem;
+    position: absolute;
+    top: 0.7rem;
+    left: 70rem;
     display: flex;
-    flex-direction: column;
     line-height: 1.5rem;
-    text-align: start;
+    text-align: center;
     z-index: 4;
+    gap: 1.5rem;
+}
+
+
+.navMenuBawah a{
+    background-color: var(--third-color);
+    border-radius: 15px;
+    padding: 0.3rem 0.5rem;
+    color: var(--navbar-color);
+    transition: all 0.5s ease;
+}
+
+.navMenuBawah a:hover{
+    background-color: transparent;
+    border: 1px solid var(--third-color);
+    color: var(--font-color);
+}
+
+.navMenuKanan a:hover{
+    color: var(--third-color);
 }
 
 /* breakpoints */
