@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import photoBack from "../../../assets/imgs/photoback.jpg"
+import photoBack from "../../../assets/imgs/photoback.png"
 import "./intrn.css";
 
 const Intrn = () => {
@@ -21,7 +21,7 @@ const Intrn = () => {
             }
           }}
           style={{ x: right }}
-          className='txtAtas'>Web Developer</motion.h1>
+          className='txtAtas'>Roleplay</motion.h1>
           <motion.h1 
           initial={{ x: -1800 }}
           animate={{
@@ -32,7 +32,7 @@ const Intrn = () => {
             }
           }}
           style={{ x: right }}
-          className='txtBawah'>Web Developer</motion.h1>
+          className='txtBawah'>Roleplay</motion.h1>
         </div>
         <div className="txtKedua">
           <motion.h1 
@@ -45,7 +45,7 @@ const Intrn = () => {
             }
           }}
           style={{ x: left }}
-          className='txtAtas'>Web Developer</motion.h1>
+          className='txtAtas'>New World</motion.h1>
           <motion.h1 
           initial={{ x: 1800 }}
           animate={{
@@ -56,7 +56,7 @@ const Intrn = () => {
             }
           }}
           style={{ x: left }}
-          className='txtBawah'>Web Developer</motion.h1>
+          className='txtBawah'>New World</motion.h1>
         </div>
         <div className="intrnImg">
           <motion.img 

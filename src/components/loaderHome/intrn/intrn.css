@@ -30,20 +30,25 @@
 
 .intrnImg{
     z-index: 2;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+}
+
+.intrnPicture{
+    width: 1900px;
+    height: 900px;
 }
 
 .txtPertamma{
     position: absolute;
-    top: 18rem;
-    left: 6rem;
+    top: 19rem;
+    left: 27rem;
 }
 
 .txtKedua{
     position: absolute;
-    top: 11rem;
-    left: 15rem;
+    top: 12rem;
+    left: 20rem;
 }
 
 /* breakpoints */
