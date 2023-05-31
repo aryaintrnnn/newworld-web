@@ -2,7 +2,58 @@
     background-color: var(--primary-color);
     width: 100%;
     height: 100vh;
-    background-color: salmon;
+}
+
+.rulesTxt{
+    font-size: 3rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 2.5rem;
+    color: var(--navbar-color);
+    padding: 2.5rem;
+}
+
+.rulesB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.rulesC{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: var(--navbar-color);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.rulesC h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 5rem;
+}
+
+.rulesC p{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.rulesC span{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 
