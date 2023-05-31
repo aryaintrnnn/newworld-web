@@ -17,3 +17,10 @@
     font-size: 2rem;
     color: var(--navbar-color);
 }
+
+/* @media screen and (max-width: 1920px) {
+    .LoaderHome{
+        width: 1920px;
+        height: 1000px;
+    }
+} */

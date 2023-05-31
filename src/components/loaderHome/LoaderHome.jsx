@@ -7,7 +7,7 @@ const LoaderHome = () => {
     <motion.section 
     initial={{ y: 0, opacity: 1 }}
     animate={{ 
-        y: -1000, 
+        y: -1600, 
         transition:{
             duration: 1,
             delay: 2
