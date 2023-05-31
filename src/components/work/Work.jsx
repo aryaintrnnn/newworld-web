@@ -1,6 +1,5 @@
 import React from 'react'
 import "./work.css"
-import WorkBaju from "../../assets/imgs/workbaju.png"
 
 const Work = () => {
   return (

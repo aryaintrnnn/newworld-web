@@ -25,11 +25,11 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="navMenuBawah">
-                <a href="#service" onClick={() => setIcon("#service")} className={icon === "#service" ? "iconAktif" : ""} >
+                <a href="fivem://connect/cfx.re/join/e54d5d" onClick={() => setIcon("#service")} className={icon === "#service" ? "iconAktif" : ""} >
                     <i class="uil uil-apps navIcon"></i>
                     <span className='navText'>Connect</span> 
                 </a>
-                <a href="#contact" onClick={() => setIcon("#contact")} className={icon === "#contact" ? "iconAktif" : ""} >
+                <a href="https://discord.gg/63u45QtUTu" onClick={() => setIcon("#contact")} className={icon === "#contact" ? "iconAktif" : ""} >
                     <i class="uil uil-mobile-android navIcon"></i>
                     <span className='navText'>Discord</span> 
                 </a>
