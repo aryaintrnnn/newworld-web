@@ -68,6 +68,10 @@
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 576px) {
+    #contact{
+        width: 100%;
+        height: 50vh;
+    }
     .footerLink{
         font-size: 0.9rem;
     }
