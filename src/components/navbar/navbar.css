@@ -123,13 +123,18 @@ nav a{
         flex-direction: row;
         position: fixed;
         z-index: 4;
-        background-color: var(--fourth-color);
+        background-color: var(--navbar-color);
         backdrop-filter: blur(10px);
         bottom: 1.3rem;
         padding: 0.5rem 0.8rem;
         border-radius: 15px;
         gap: 0.6rem;
     }
+
+    .navMenuKanan{
+        background-color: transparent;
+    }
+
     .iconAktif{
         background-color: var(--secondary-color);
         padding: 0.3rem;
