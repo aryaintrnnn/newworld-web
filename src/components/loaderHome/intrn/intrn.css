@@ -113,18 +113,18 @@
         color: var(--secondary-color);
     }
     .txtPertamma{
-        top: 25rem;
-        left: 8.5rem;
+        top: 24rem;
+        left: 6rem;
     }
     
     .txtKedua{
-        top: 22rem;
-        left: 5.5rem;
+        top: 21.5rem;
+        left: 3rem;
     }
 
     .intrnPicture{
-        width: 578px;
-        height: 1100px;
+        width: 800px;
+        height: 800px;
     }
 }
 @media screen and (max-width: 350px) {
