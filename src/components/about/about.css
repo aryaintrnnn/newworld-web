@@ -64,8 +64,13 @@
 @media screen and (max-width: 768px) {
 }
 @media screen and (max-width: 576px) {
-    .kartu{
-        height: 105px;
+    .about {
+        height: 140vh;
+    
+    }
+    .box{
+        display: block;
+        padding: 0rem 4rem;
     }
 
 }
