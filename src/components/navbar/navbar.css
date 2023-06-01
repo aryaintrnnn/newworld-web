@@ -105,7 +105,7 @@ nav a{
         display: flex;
         flex-direction: row;
         position: fixed;
-        left: 11.7rem;
+        left: 9rem;
     }
     .navMenuKanan, 
     .navMenuBawah{
@@ -124,9 +124,9 @@ nav a{
         position: fixed;
         z-index: 4;
         background-color: var(--navbar-color);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(20px);
         bottom: 1.3rem;
-        padding: 0.5rem 0.8rem;
+        padding: 0.1rem 0.2rem;
         border-radius: 15px;
         gap: 0.6rem;
     }
